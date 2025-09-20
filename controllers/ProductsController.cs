@@ -4,7 +4,7 @@ namespace ECommerceApp.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController :ControllerBase
+    public class ProductsController : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
